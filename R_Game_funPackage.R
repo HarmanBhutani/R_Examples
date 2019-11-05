@@ -6,6 +6,13 @@ demo(package="fun")
 mine_sweeper()
 ?mine_sweeper
 
+install.packages("TurtleGraphics")
+library(TurtleGraphics)
+
+turtle_init()
+
+RealTurtle()
+?RealTurtle
 
 if (interactive()) {
   if (.Platform$OS.type == "windows") 

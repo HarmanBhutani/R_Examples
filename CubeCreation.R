@@ -37,6 +37,7 @@ gen_sales <- function(no_of_recs) {
   return(pizza_sales)
 }
 
+
 # Now create the sales fact table
 orders <- gen_sales(500)
 
